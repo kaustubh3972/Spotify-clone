@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spotify</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li class="logo"><img src="logo.png" alt="Spotify Logo" />Spotify</li>
+				<!-- <li>Home</li>
+				<li>About</li> -->
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="songList">
+				<h1>Song Name</h1>
+				<div>
+					<div class="songItem">
+						<img alt="1" />
+						<span class="songName">Agar Tum Saath Ho</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>05:41
+								<i
+									id="0"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="2" />
+						<span class="songName">Apna Bana Le</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>04:21
+								<i
+									id="1"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="3" />
+						<span class="songName">Gujju Pataka</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>03:32
+								<i
+									id="2"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="4" />
+						<span class="songName">Krishna Theme (Flute)</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>02:07
+								<i
+									id="3"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="6" />
+						<span class="songName">Malang Sajna</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>02:37
+								<i
+									id="4"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="7" />
+						<span class="songName">O Bedardeya</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>02:51
+								<i
+									id="5"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="8" />
+						<span class="songName">Rasiya</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>04:25
+								<i
+									id="6"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="9" />
+						<span class="songName">Tere Naina</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>04:38
+								<i
+									id="7"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="10" />
+						<span class="songName">Tere Pyar Mein</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>02:57
+								<i
+									id="8"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+					<div class="songItem">
+						<img alt="10" />
+						<span class="songName">Tum Kya Mile</span>
+						<span class="songPlay"
+							><span class="songDuration"
+								>03:16
+								<i
+									id="9"
+									class="songItemPlay fa-regular fa-circle-play"
+								></i></span
+						></span>
+					</div>
+				</div>
+			</div>
+			<div class="songImg"></div>
+		</div>
+		<div class="bottom">
+			<input
+				type="range"
+				name="range"
+				id="songProgress"
+				min="0"
+				max="100"
+				value="0"
+			/>
+			<div class="songBtns">
+				<i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+				<i class="fa-regular fa-3x fa-circle-play" id="playPause"></i>
+				<i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+			</div>
+			<div class="songInfo">
+				<img src="playing.gif" width="40px" id="playEffect" />
+				<span id="currentSongName">Agar Tum Saath Ho</span>
+			</div>
+		</div>
+		<script
+			src="https://kit.fontawesome.com/39e1721260.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js"></script>
+	</body>
+</html>
